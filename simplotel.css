@@ -8,7 +8,7 @@ body{
 }
 .section{
     width:100%;
-   min-height:100vh;
+   min-height:120vh;
     background:linear-gradient(90deg,#f76ee4 10%,#fddc1d  ); /*rgb(245, 130, 36)*/
     box-shadow: 0 0 7px rgba(121, 120, 120, 0.788);
     margin-bottom: 15px;
@@ -159,13 +159,13 @@ nav li:first-child{
     font-weight: 900;
 }
 
-@media(min-width:800px) and (max-width:1023px){
+@media(min-width:800px) and (max-width:1022px){
     .card img{
         height:400px
     }
 }
 
-@media(max-width:1024px) {
+@media(max-width:1023px) {
     #bar-container{
         display : flex;
         align-items: center;
